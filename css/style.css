@@ -1,0 +1,234 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+    padding: 50px 0 0 0;
+}
+
+.menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu a {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.headLogo {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.log {
+    display: flex;
+    align-items: center;
+}
+
+#cloud {
+    background: url("../img/Bg.png") no-repeat center/cover;
+}
+
+.cloud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cloudTitle {
+    font-weight: 700;
+    font-size: 72px;
+    color: #FFFFFF;
+    padding: 200px 0 0 0;
+}
+
+.cloudDesc {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 30%;
+    line-height: 150%;
+    padding: 70px 0;
+}
+
+.cloudBtn {
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ED4C5C;
+    border: none;
+    padding: 16px 30px;
+    margin: 0 0 200px 0;
+}
+
+.lan {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+#option {
+    background: transparent;
+}
+
+.headBtn {
+    font-weight: 400;
+    background: transparent;
+    padding: 10px 15px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.Management {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.ManagementBlock {
+    width: 50%;
+}
+
+.play {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ED4C5C;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -50px;
+}
+
+.path {
+    clip-path: polygon(26% 0, 26% 100%, 81% 50%);
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+}
+
+.blockPlay {
+    display: flex;
+    align-items: center;
+}
+
+
+.Features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FeaturesCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardDesc {
+    position: absolute;
+    width: 233px;
+    height: 128px;
+    margin: 230px 0 0 0;
+    background: #FFFFFF;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.cardTitle {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cardsDescription {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.cardLink {
+    font-weight: 700;
+    font-size: 12px;
+    color: #ED4C5C;
+    text-decoration: none;
+}
+
+.FeaturesBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FeaturesTitle {
+    font-weight: 600;
+    font-size: 36px;
+    padding: 0 0 60px 0;
+}
+
+.TechnologyCard {
+    width: 250px;
+    text-align: center;
+}
+
+.Technology {
+    margin: 190px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bac {
+    background: url("../img/01.png") no-repeat center;
+    padding: 70px 0 0 0;
+}
+
+.TechnologyBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

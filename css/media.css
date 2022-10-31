@@ -1,0 +1,36 @@
+@media (max-width: 1200px) {
+    .cloud {
+        min-height: 100vh;
+     }
+}
+@media (max-width: 1024px) {
+
+    .menu {
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .cloudTitle {
+        font-size: 42px;
+    }
+    .cloudDesc {
+        width: 89%;
+padding: 40px 0;
+    }
+}
+
+
+
+/*1200*/
+/*1140*/
+/*1024*/
+/*992*/
+/*768*/
+/*576*/
+/*450*/
+/*414*/
+/*400*/
+/*380*/
+/*375*/
+/*360*/
+/*320*/
